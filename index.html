@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scorecard</title>
+</head>
+<body>
+    <div class = "container">
+        <div>
+            <h3>HOME</h3>
+            <p id = "homescore">0</p>
+            <div class = "buttons">
+                <button class = "1" onclick = "plusone()">+1</button>
+                <button class = "2" onclick = "plustwo()">+2</button>
+                <button class = "3" onclick = "plusthree()">+3</button>
+                <button id = "reset" onclick = "reset()">Reset</button>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <p id = "guestscore">0</p>
+            <div class = "buttons">
+                <button class = "1" onclick = "plusoneguest()">+1</button>
+                <button class = "2" onclick = "plustwoguest()">+2</button>
+                <button class = "3" onclick = "plusthreeguest()">+3</button>
+                <button id = "reset" onclick = "resetguest()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
